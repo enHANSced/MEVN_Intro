@@ -1,0 +1,20 @@
+{
+  "name": "mevn-intro-backend",
+  "version": "1.0.0",
+  "description": "Backend básico con Node.js y Express para MEVN Intro",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["node", "express", "mevn"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
